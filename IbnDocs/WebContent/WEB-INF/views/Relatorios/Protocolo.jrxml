@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.11.0.final using JasperReports Library version 6.11.0-0c4056ccaa4d25a5a8c45672d2f764ea3498bebb  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Protocolo" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="641e5454-2193-4d9e-a652-28cfa95f73b3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Sample DB"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="resResponsavel" class="java.lang.String">
+		<fieldDescription><![CDATA[resResponsavel]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="158" splitType="Stretch">
+			<staticText>
+				<reportElement x="220" y="0" width="120" height="22" uuid="0ac87fc0-cb45-4f39-86b7-717e13cf0164"/>
+				<text><![CDATA[PROTOCOLO DE SAIDA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="42" width="100" height="18" uuid="aef8f449-c3d2-47b9-960d-f4f478248ed3"/>
+				<text><![CDATA[Remetente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="285" y="43" width="100" height="18" uuid="751ccb10-7c94-4e83-8d07-acab333eea3f"/>
+				<text><![CDATA[Destinatario]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="60" width="551" height="5" uuid="923e2011-1cf1-4257-a2ec-7fca7ef73666"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="67" width="101" height="20" uuid="c7cd6074-c693-4d2c-acfb-463febca7f5a"/>
+				<text><![CDATA[Empresa: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="87" width="102" height="20" uuid="7169d8da-b4a0-472c-bc49-20378fb70838"/>
+				<textFieldExpression><![CDATA[Departamento:]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="107" width="102" height="20" uuid="2fa20804-fb0d-47a8-86f3-a0b46c4cfd0c"/>
+				<textFieldExpression><![CDATA[Responsavel: resResponsavel]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="127" width="100" height="20" uuid="4b8e1485-a521-4578-8955-cb4a365339ba"/>
+				<text><![CDATA[Endereco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="284" y="69" width="101" height="20" uuid="9651364e-0566-4581-8986-d325cbd1af84"/>
+				<text><![CDATA[Empresa: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="285" y="90" width="100" height="20" uuid="3876a8f9-e2aa-41fb-ba60-a3ea604020c2"/>
+				<textFieldExpression><![CDATA[Departamento:]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="284" y="110" width="101" height="20" uuid="6fab714e-094e-4d1a-bed5-f8155db21d9f"/>
+				<textFieldExpression><![CDATA[Responsavel]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="284" y="130" width="101" height="17" uuid="e598e408-aa08-4af6-9786-743091a6c4eb"/>
+				<text><![CDATA[Endereco]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="102" height="40" uuid="883022bf-2ae2-46fb-bdf2-83719dbd7d90"/>
+				<imageExpression><![CDATA["/WebContent/assets/logos/ll.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="196" y="22" width="170" height="14" uuid="deef39cf-213a-4e0b-992c-d88b537657c7"/>
+				<text><![CDATA[CODIGO ID - DATA - HORA - VIA 1]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="207" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="5c1d7d37-be3e-4b39-87a5-b487d46e787c"/>
+				<text><![CDATA[Item]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="1" width="100" height="19" uuid="66ab373e-8008-45df-bfb0-72987f83c4f6"/>
+				<text><![CDATA[Qte]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="-1" width="100" height="21" uuid="f1935206-501a-4743-9e83-f3384443c421"/>
+				<text><![CDATA[Detalhe]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="451" y="2" width="100" height="15" uuid="8a50cd38-d266-44eb-a41e-b578754d5018"/>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="22" width="561" height="5" uuid="0f99908f-1a57-4cb5-80f9-baa74bd43f6e"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="72" width="100" height="16" uuid="7694f3b3-031d-4867-8bea-350a07bd3849"/>
+				<text><![CDATA[Data: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="135" y="70" width="100" height="18" uuid="c97c1746-8e03-485c-b097-8b744235bf18"/>
+				<text><![CDATA[Hora: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="305" y="72" width="100" height="16" uuid="fb9a162f-68c0-454a-9ea2-6b93fc361738"/>
+				<text><![CDATA[Recebido por: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-20" y="157" width="601" height="5" uuid="e2e77f1c-37e4-4c44-8fb4-12ffd28ae653"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="167" splitType="Stretch">
+			<staticText>
+				<reportElement x="220" y="17" width="120" height="22" uuid="39c31bd4-0b48-45c1-af14-6311458f7476"/>
+				<text><![CDATA[PROTOCOLO DE SAIDA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="57" width="100" height="18" uuid="0c2828c2-9329-4d3a-83ec-ab2a9308ece7"/>
+				<text><![CDATA[Remetente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="58" width="100" height="18" uuid="bafd93e9-e02e-45c5-850e-5d8434ba8dae"/>
+				<text><![CDATA[Destinatario]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="77" width="551" height="5" uuid="838481a2-76eb-4c3c-b2ac-d9a4109b7152"/>
+			</line>
+			<staticText>
+				<reportElement x="2" y="87" width="101" height="20" uuid="2bb9a7bc-24e0-4791-a87f-346f2147178d"/>
+				<text><![CDATA[Empresa: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="1" y="107" width="102" height="20" uuid="9bbee53e-c84a-4aa2-b9b9-c183acec7044"/>
+				<textFieldExpression><![CDATA[Departamento:]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="127" width="102" height="20" uuid="8c03b422-7dfb-4ceb-8d57-b32b3f93981d"/>
+				<textFieldExpression><![CDATA[Responsavel]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="147" width="100" height="20" uuid="da639a72-fba2-4b91-b892-ce160e8a1a96"/>
+				<text><![CDATA[Endereco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="286" y="89" width="101" height="20" uuid="b1d30d34-dda0-453f-8bd9-a4fc975ce48e"/>
+				<text><![CDATA[Empresa: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="286" y="110" width="100" height="20" uuid="2290ba3e-b515-45af-aee2-c88154c47e69"/>
+				<textFieldExpression><![CDATA[Departamento:]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="130" width="101" height="20" uuid="5da72895-9907-46e8-9be0-311a7dd7d615"/>
+				<textFieldExpression><![CDATA[Responsavel]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="285" y="150" width="101" height="17" uuid="fbf8deba-9946-445e-a241-d1677cbec76b"/>
+				<text><![CDATA[Endereco]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="17" width="101" height="41" uuid="cbb99961-1b17-473a-b317-d98763f5c28e"/>
+				<imageExpression><![CDATA["/WebContent/assets/logos/ll.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="196" y="39" width="170" height="14" uuid="cf39e197-e4cf-484f-bca1-280166c2e8fd"/>
+				<text><![CDATA[CODIGO ID - DATA - HORA - VIA 2]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="138" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="38" width="100" height="20" uuid="3e8ecfdb-95ad-43cd-87e0-cc5193b4e39f"/>
+				<text><![CDATA[Item]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="39" width="100" height="19" uuid="60633293-52fe-4421-a667-267e60944fa8"/>
+				<text><![CDATA[Qte]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="37" width="100" height="21" uuid="a5ac2d6f-b741-4787-8194-a9fd4163943f"/>
+				<text><![CDATA[Detalhe]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="451" y="40" width="100" height="15" uuid="6d11813c-1d08-4ef1-a922-3a346af3b5d9"/>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="60" width="561" height="5" uuid="c4446352-6c80-42ac-b6f0-f5ade3a9b6f0"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="113" width="100" height="16" uuid="1175ffd3-7470-47d1-a390-71ba67c28a46"/>
+				<text><![CDATA[Data: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="112" width="100" height="18" uuid="852909e7-71cb-4df5-9917-4929e320157a"/>
+				<text><![CDATA[Hora: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="113" width="100" height="16" uuid="5a4ba9d5-c4dd-42fb-aa94-c335303b0beb"/>
+				<text><![CDATA[Recebido por: ]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="55" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
